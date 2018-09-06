@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "description": "A sample node app for Kubernetes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superbrothers/kubernetes-hello-node.git"
+  },
+  "license": "MIT"
+}
