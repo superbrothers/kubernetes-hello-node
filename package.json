@@ -2,7 +2,8 @@
   "name": "app",
   "description": "A sample node app for Kubernetes",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ignore-path .gitignore .",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.3",
@@ -12,5 +13,8 @@
     "type": "git",
     "url": "https://github.com/superbrothers/kubernetes-hello-node.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
 }

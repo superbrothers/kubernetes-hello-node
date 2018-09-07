@@ -12,6 +12,9 @@ run-in-node:
 npm-install:
 	$(DOCKER_RUN) npm install
 
+lint:
+	$(DOCKER_RUN) npm run lint
+
 start:
 	$(NODE) server.js
 
